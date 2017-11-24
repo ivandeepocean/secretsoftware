@@ -9,6 +9,7 @@ Module Module1
     Public sql, sql2 As String
     Public ProductNoSum As Integer
     Public gt As Integer
+    Public productcodetable As String
     Public productnotable As String
     Public productnametable As String
     Public descriptiontable As String

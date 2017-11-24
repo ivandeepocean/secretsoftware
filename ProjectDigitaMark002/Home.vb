@@ -12,14 +12,7 @@
     Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
         SplitContainer1.Panel2.Controls.Clear()
         SplitContainer1.Panel2.Controls.Add(New InventoryView())
-        'Inventory.MdiParent = Me
-        'Inventory.Show()
-        ''Inventory.Location = New Point(150, 150)
-        ''Inventory.Size = New Size(1210, 590)
-        'Button1.Enabled = False
-        'Button2.Enabled = True
-        'Button3.Enabled = True
-        'Button4.Enabled = True
+
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -47,9 +40,4 @@
         Me.Hide()
         Form_login.Show()
     End Sub
-
-
-
-
-
 End Class

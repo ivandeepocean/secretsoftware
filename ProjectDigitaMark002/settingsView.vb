@@ -1,3 +1,3 @@
-﻿Public Class settingsView
+﻿Public Class SettingsView
 
 End Class

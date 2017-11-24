@@ -152,17 +152,23 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="SettingsView.Designer.vb">
+      <DependentUpon>SettingsView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SizeView.Designer.vb">
+      <DependentUpon>SizeView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SizeView.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Settings.Designer.vb">
       <DependentUpon>Settings.vb</DependentUpon>
     </Compile>
     <Compile Include="Settings.vb">
       <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="settingsView.Designer.vb">
-      <DependentUpon>settingsView.vb</DependentUpon>
-    </Compile>
-    <Compile Include="settingsView.vb">
-      <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -198,6 +204,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SizeView.resx">
+      <DependentUpon>SizeView.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Settings.resx">
       <DependentUpon>Settings.vb</DependentUpon>

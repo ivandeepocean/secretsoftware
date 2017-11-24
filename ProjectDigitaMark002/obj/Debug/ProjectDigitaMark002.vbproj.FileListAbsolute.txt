@@ -19,3 +19,4 @@ C:\Users\Ivan\Documents\Visual Studio 2017\Projects\ProjectDigitaMark002\Project
 C:\Users\Ivan\Documents\Visual Studio 2017\Projects\ProjectDigitaMark002\ProjectDigitaMark002\obj\Debug\ProjectDigitaMark002.Copy.resources
 C:\Users\Ivan\Documents\Visual Studio 2017\Projects\ProjectDigitaMark002\ProjectDigitaMark002\obj\Debug\ProjectDigitaMark002.AddProduct.resources
 C:\Users\Ivan\Documents\Visual Studio 2017\Projects\ProjectDigitaMark002\ProjectDigitaMark002\obj\Debug\ProjectDigitaMark002.EditProduct.resources
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\ProjectDigitaMark002\ProjectDigitaMark002\obj\Debug\ProjectDigitaMark002.SizeView.resources
