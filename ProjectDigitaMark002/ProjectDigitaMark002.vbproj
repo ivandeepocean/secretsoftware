@@ -75,10 +75,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="accountsView.Designer.vb">
+    <Compile Include="Views\accountsView.Designer.vb">
       <DependentUpon>accountsView.vb</DependentUpon>
     </Compile>
-    <Compile Include="accountsView.vb">
+    <Compile Include="Views\accountsView.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="AddProduct.Designer.vb">
@@ -87,10 +87,10 @@
     <Compile Include="AddProduct.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="CashierView.Designer.vb">
+    <Compile Include="Views\CashierView.Designer.vb">
       <DependentUpon>CashierView.vb</DependentUpon>
     </Compile>
-    <Compile Include="CashierView.vb">
+    <Compile Include="Views\CashierView.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Copy.Designer.vb">
@@ -124,10 +124,10 @@
     <Compile Include="Home.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="InventoryView.Designer.vb">
+    <Compile Include="Views\InventoryView.Designer.vb">
       <DependentUpon>InventoryView.vb</DependentUpon>
     </Compile>
-    <Compile Include="InventoryView.vb">
+    <Compile Include="Views\InventoryView.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="LoginFrm.Designer.vb">
@@ -152,16 +152,16 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="SettingsView.Designer.vb">
+    <Compile Include="Views\SettingsView.Designer.vb">
       <DependentUpon>SettingsView.vb</DependentUpon>
     </Compile>
-    <Compile Include="SettingsView.vb">
+    <Compile Include="Views\SettingsView.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="SizeView.Designer.vb">
+    <Compile Include="Views\SizeView.Designer.vb">
       <DependentUpon>SizeView.vb</DependentUpon>
     </Compile>
-    <Compile Include="SizeView.vb">
+    <Compile Include="Views\SizeView.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Settings.Designer.vb">
@@ -175,7 +175,7 @@
     <EmbeddedResource Include="AddProduct.resx">
       <DependentUpon>AddProduct.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CashierView.resx">
+    <EmbeddedResource Include="Views\CashierView.resx">
       <DependentUpon>CashierView.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Copy.resx">
@@ -193,7 +193,7 @@
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="InventoryView.resx">
+    <EmbeddedResource Include="Views\InventoryView.resx">
       <DependentUpon>InventoryView.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginFrm.resx">
@@ -205,7 +205,7 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="SizeView.resx">
+    <EmbeddedResource Include="Views\SizeView.resx">
       <DependentUpon>SizeView.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Settings.resx">
